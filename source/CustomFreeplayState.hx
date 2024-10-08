@@ -243,10 +243,8 @@ class CustomFreeplayState extends MusicBeatSubstate
 				canciones = [
 					["It's a me", 'its-a-me', '26'],
 					["Starman Slaughter", 'starman-slaughter', '34'],
-				];
-				if(ClientPrefs.storySave[7]){
 					canciones.push(['All-Stars', 'all-stars', '9']);
-				}
+				];
 			case 'Island':
 				canciones = [
 					['So Cool', 'so-cool', '8'],
