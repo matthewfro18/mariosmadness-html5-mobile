@@ -73,7 +73,7 @@ class PauseSubState extends MusicBeatSubstate
 	public function new(x:Float, y:Float)
 	{
 		super();
-		if(PlayState.deathCounter == 3 || (!PlayState.isStoryMode && !PlayState.isWarp)){
+		if (!PlayState.isStoryMode && !PlayState.isWarp)){
 			luigitime = true;
 		}
 		if(luigitime){
