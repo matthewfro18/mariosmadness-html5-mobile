@@ -27,7 +27,7 @@ class CustomFreeplayState extends MusicBeatSubstate
 {
 	var options:Array<String> = ['Mainweek', 'Island', 'Woodland', 'Cosmos', 'Heights', 'Classified', 'Legacy', 'Extra'];
 	public static var canciones:Array<Dynamic> = [];
-	var opValid:Array<Bool> = [ClientPrefs.storySave[0], ClientPrefs.storySave[1], ClientPrefs.storySave[2], ClientPrefs.storySave[3], ClientPrefs.storySave[4], ClientPrefs.storySave[5], ClientPrefs.storySave[9], ClientPrefs.storySave[8]];
+	var opValid:Array<Bool> = [];
 	
 	private var grpOptions:FlxTypedGroup<FlxSprite>;
 
